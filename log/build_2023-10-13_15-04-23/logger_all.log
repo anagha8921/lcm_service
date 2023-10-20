@@ -1,0 +1,87 @@
+[0.261s] DEBUG:colcon:Command line arguments: ['/home/devuser/.local/bin/colcon', 'build', '--packages-select', 'lcm_service']
+[0.261s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lcm_service'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe03f26ca00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe03fc886a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe03fc886a0>>)
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/devuser/AOX/ROS2/src/lcm_service'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'lcm_service'
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.313s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/devuser/AOX/ROS2/src/lcm_service/install
+[0.314s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/devuser/AOX/ROS2/src/install
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/devuser/AOX/ROS2/src/tutorial_interfaces/install
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/devuser/AOX/ROS2/src/lcm_topic/install
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lcm_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'lcm_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service', 'merge_install': False, 'path': '/home/devuser/AOX/ROS2/src/lcm_service', 'symlink_install': False, 'test_result_base': None}
+[0.363s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.368s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/AOX/ROS2/src/lcm_service' with build type 'ament_cmake'
+[0.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/AOX/ROS2/src/lcm_service'
+[0.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[3.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[3.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lcm_service)
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service' for CMake module files
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service' for CMake config files
+[3.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('lcm_service', 'cmake_prefix_path')
+[3.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/hook/cmake_prefix_path.ps1'
+[3.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/hook/cmake_prefix_path.dsv'
+[3.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/hook/cmake_prefix_path.sh'
+[3.422s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib'
+[3.422s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/bin'
+[3.422s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/pkgconfig/lcm_service.pc'
+[3.422s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/python3.10/site-packages'
+[3.423s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/bin'
+[3.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.ps1'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.dsv'
+[3.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.sh'
+[3.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.bash'
+[3.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.zsh'
+[3.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/colcon-core/packages/lcm_service)
+[3.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.438s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.442s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.450s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/AOX/ROS2/src/lcm_service/install/local_setup.ps1'
+[3.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devuser/AOX/ROS2/src/lcm_service/install/_local_setup_util_ps1.py'
+[3.453s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/AOX/ROS2/src/lcm_service/install/setup.ps1'
+[3.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/AOX/ROS2/src/lcm_service/install/local_setup.sh'
+[3.455s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devuser/AOX/ROS2/src/lcm_service/install/_local_setup_util_sh.py'
+[3.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/AOX/ROS2/src/lcm_service/install/setup.sh'
+[3.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/AOX/ROS2/src/lcm_service/install/local_setup.bash'
+[3.457s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/AOX/ROS2/src/lcm_service/install/setup.bash'
+[3.458s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/AOX/ROS2/src/lcm_service/install/local_setup.zsh'
+[3.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/AOX/ROS2/src/lcm_service/install/setup.zsh'

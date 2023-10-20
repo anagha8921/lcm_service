@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[0.055s] [ 66%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.055s] [ 66%] [32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o[0m
+[0.056s] [ 66%] Built target server_b
+[1.720s] [01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.720s] [01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:86:88:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid notify(std::shared_ptr<tutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Shutdown_Response_<std::allocator<void> > >)[m[K’
+[1.720s]    86 |     node->create_service<tutorial_interfaces::srv::Shutdown>("notify_service",  &[01;31m[Knotify()[m[K);     // CHANGE
+[1.720s]       |                                                                                  [01;31m[K~~~~~~^~[m[K
+[1.720s] [01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:12:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.720s]    12 | void [01;36m[Knotify[m[K(const std::shared_ptr<tutorial_interfaces::srv::Shutdown::Request> request,     // CHANGE
+[1.720s]       |      [01;36m[K^~~~~~[m[K
+[1.720s] [01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:81:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.720s]    81 |   auto [01;35m[Kreq[m[K=atoll(argv[1]);
+[1.720s]       |        [01;35m[K^~~[m[K
+[2.161s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[2.161s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/client.dir/all] Error 2
+[2.161s] gmake[1]: *** Waiting for unfinished jobs....
+[2.891s] [ 83%] [32m[1mLinking CXX executable server_a[0m
+[3.017s] [ 83%] Built target server_a
+[3.018s] gmake: *** [Makefile:146: all] Error 2
+[3.019s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8

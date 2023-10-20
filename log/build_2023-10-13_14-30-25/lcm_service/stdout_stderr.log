@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target server_a[0m
+[ 66%] Built target client
+[ 66%] Built target server_b
+[ 83%] [32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o[0m
+[01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:40:37:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   40 |    while (!client->wait_for_service([01;31m[K1s[m[K)) {
+      |                                     [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/server_a.dir/build.make:76: CMakeFiles/server_a.dir/src/server_a.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server_a.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

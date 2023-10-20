@@ -1,0 +1,13 @@
+[0.015s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target server_a[0m
+[0.061s] [ 66%] Built target client
+[0.061s] [ 66%] Built target server_b
+[0.063s] [ 83%] [32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o[0m
+[1.810s] [01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.810s] [01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:40:37:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.810s]    40 |    while (!client->wait_for_service([01;31m[K1s[m[K)) {
+[1.810s]       |                                     [01;31m[K^~[m[K
+[2.348s] gmake[2]: *** [CMakeFiles/server_a.dir/build.make:76: CMakeFiles/server_a.dir/src/server_a.cpp.o] Error 1
+[2.348s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server_a.dir/all] Error 2
+[2.348s] gmake: *** [Makefile:146: all] Error 2
+[2.350s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8

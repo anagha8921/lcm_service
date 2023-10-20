@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target server_a[0m
+[0.057s] [ 33%] Built target server_b
+[0.061s] [ 66%] Built target client
+[0.064s] [100%] Built target server_a
+[0.073s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[0.105s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service
+[0.111s] -- Install configuration: ""
+[0.111s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_a
+[0.111s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_b
+[0.111s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/client
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/package_run_dependencies/lcm_service
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/parent_prefix_path/lcm_service
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/ament_prefix_path.sh
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/ament_prefix_path.dsv
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/path.sh
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/path.dsv
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.bash
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.sh
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.zsh
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.dsv
+[0.112s] -- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.dsv
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/packages/lcm_service
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/cmake/lcm_serviceConfig.cmake
+[0.112s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/cmake/lcm_serviceConfig-version.cmake
+[0.113s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.xml
+[0.115s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service

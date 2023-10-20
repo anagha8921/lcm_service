@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target server_b[0m
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[35m[1mConsolidate compiler generated dependencies of target server_a[0m
+[ 66%] Built target server_b
+[ 66%] Built target client
+[ 83%] [32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o[0m
+[01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:40:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<tutorial_interfaces::srv::Shutdown>::wait_for_service(int)[m[K’
+   40 |     while (![01;31m[Kclient->wait_for_service(1)[m[K) {
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class RepT, class RatioT> bool rclcpp::ClientBase::wait_for_service(std::chrono::duration<_Rep1, _Period1>)[m[K’
+  195 |   [01;36m[Kwait_for_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:40:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+   40 |     while (![01;36m[Kclient->wait_for_service(1)[m[K) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/server_a.dir/build.make:76: CMakeFiles/server_a.dir/src/server_a.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server_a.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
